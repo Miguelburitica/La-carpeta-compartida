@@ -1,0 +1,32 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Turret Road', cursive;
+    font-size: 30px;
+    font-weight: 100;
+    background-color: #50;
+}
+
+div {
+	width: 120px;
+	height: 120px;
+	background: red;
+	display: block;
+}
+
+.caja1 {
+	background-color: orange;
+}
+
+.caja2 {
+	background-color: green;
+	position: relative;
+	top: -20px;
+}
+
+.caja3 {
+	background-color: lightblue;
+}
+
+.caja4 {
+	background-color: yellow;
+}

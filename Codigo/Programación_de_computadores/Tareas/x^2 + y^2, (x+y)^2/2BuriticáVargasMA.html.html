@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+</head>
+<body>
+  	<div class="Author">By Miguel A. Buriticá V.</div>
+
+<div2 class="Principal_title">Programa calculador de sumas de cuadrados y sumas al cuadrado</div2>
+
+<div class="Subtitles">Cálculo de la suma de cuadrados</div>
+
+<input type="number" id="x" x="x" required minlenght="4" maxlenght = "8" size="10" class="body_text">
+
+<input type="number" id="y" y="y" required minlenght="4" maxlenght = "8" size="10" class="body_text">
+
+<button type="button" onclick="Suma_de_cuadrados()"> Calcular suma </button>
+
+<p id="valor1"></p>
+
+<div class="Subtitles">Cálculo del cuadrado de la suma </div>
+
+<input type="number" id="i" i="i" required minlenght="4" maxlenght = "8" size="10" class="body_text">
+
+<input type="number" id="j" j="j" required minlenght="4" maxlenght = "8" size="10" class="body_text">
+
+<button type="button" onclick="Cuadrado_de_la_suma()"> Calcular cuadrado </button>
+
+<p id="valor2"></p>
+
+  <script type="text/javascript">
+    	$(document).ready(function() {
+		  $(".welcome").append("!!!");
+		});
+		
+		function Suma_de_cuadrados(){
+		    var ax = document.getElementById("x").value;
+		    
+		    var ay = document.getElementById("y").value;
+		    
+		    var axe2 = ax*ax;
+		    
+		    var aye2 = ay*ay;
+		    document.getElementById("valor1").innerHTML = "La suma de los cuadrados es: "+(axe2+aye2);
+		}
+		
+		function Cuadrado_de_la_suma(){
+		    var ai = document.getElementById("i").value;
+		    
+		    var aj = document.getElementById("j").value;
+		    
+		    var ai1 = ai*1
+		    
+		    var aj1 = aj*1
+		    document.getElementById("valor2").innerHTML = "El cuadrado de la suma es:   "+((ai1+aj1)*(ai1+aj1));
+		}
+  </script>
+
+  <style type="text/css">
+    	.Author {
+		  color:Black;
+		  font-size:10px;
+		  font-family:arial;
+		  text-align:left;
+		  padding:5px;
+		}
+		.Principal_title {
+		  color:black;
+		  font-size:35px;
+		  font-family:bold;
+		  text-align:center;
+		  padding:5px;
+		}
+		.body_text {
+		  color:blue;
+		  font-size:14px;
+		  font-family:courier;
+		  text-align:center;
+		  padding:5px;
+		}
+		.Subtitles {
+		  color:Black;
+		  font-size:20px;
+		  font-family:cursive;
+		  text-align:left;
+		  padding:5px;
+		}
+  </style>
+</body>
+</html>

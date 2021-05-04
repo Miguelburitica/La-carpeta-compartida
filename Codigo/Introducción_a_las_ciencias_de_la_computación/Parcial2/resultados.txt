@@ -1,0 +1,1 @@
+La distancia entre los vectores v1 = (1, -2, -3, 9, 10) y v2 = (2, 4, 4, 51, 76) es: 78.77816956492453

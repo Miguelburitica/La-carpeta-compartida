@@ -1,0 +1,10 @@
+c=int(input("Ingrese la cantidad de elementos que quiere ingresar: "))
+suma = []
+for i in range(c):
+    V = float(input("Ingrese un numero a sumar: "))
+    suma.append(V)
+print(suma)
+resultado = float()
+for j in range(c):
+    resultado = resultado + suma[j]
+print(resultado)

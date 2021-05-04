@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+</head>
+<body>
+  	<div class="colorTexto">Primer programa by Miguel A. Buriticá V.</div>
+
+<div2 class="textColor2">Cuadrado de un número.</div2>
+
+<input type="number" id="name" name="name" required minlenght="4" maxlenght = 
+    "8" size="10" class="textColor1">
+
+<button type="button" onclick="cuadrado()"> Calcular </button>
+
+<p id="valor"></p>
+
+<div3 class="textColor3">Prueba tu suerte</div3>
+
+<input type="number" id="numero" numero="numero" required minlenght="4" maxlenght="8" size="10" class="textColor1">
+
+<button type="button" onclick="suerte()"> Suerte </button>
+
+<p id="valor2"></p>
+
+  <script type="text/javascript">
+    	$(document).ready(function() {
+		  $(".welcome").append("!!!");
+		});
+		
+		function cuadrado(){
+		    var ans = document.getElementById("name").value;
+		    
+		    document.getElementById("valor").innerHTML = "El resultado es: "+ans*ans;
+		}
+		
+		function suerte(){
+		    var ans2 = document.getElementById("numero").value;
+		    
+		    document.getElementById("valor2").innerHTML = "Vales oro y tu número de la suerte es: "+ans2*3.14159265;
+		}
+  </script>
+
+  <style type="text/css">
+    	.colorTexto {
+		  color:black;
+		  font-size:36px;
+		  font-family:cursive;
+		  text-align:center;
+		  padding:20px;
+		}
+		.textColor1 {
+		  color:green;
+		  font-size:25px;
+		  font-family:bold;
+		  text-align:center;
+		  padding:5px;
+		}
+		.textColor2 {
+		  color:red;
+		  font-size:36px;
+		  font-family:fantasy;
+		  text-align:right;
+		  padding:20px;
+		}
+		.textColor3 {
+		  color:blue;
+		  font-size:36px;
+		  font-family:courier;
+		  text-align:left;
+		  padding:20px;
+		}
+  </style>
+</body>
+</html>

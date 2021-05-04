@@ -1,0 +1,10 @@
+Vamos a comer = 1 pizzas 
+Vamos a comer = 2 pizzas 
+Vamos a comer = 3 pizzas 
+Vamos a comer = 4 pizzas 
+Vamos a comer = 5 pizzas 
+Vamos a comer = 6 pizzas 
+Vamos a comer = 7 pizzas 
+Vamos a comer = 8 pizzas 
+Vamos a comer = 9 pizzas 
+Vamos a comer = 10 pizzas 
