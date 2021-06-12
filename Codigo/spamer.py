@@ -1,7 +1,7 @@
 import pyautogui, time
 time.sleep(5)
 
-f = "Horror roto de mierda"
+f = "Te amo soy tu fan"
 i = 0
 while i <= 10000:
     for word in f:
